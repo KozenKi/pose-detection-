@@ -36,15 +36,22 @@ Push-up
 Sit-up
 Squat
 Included Data
+
 Source exercise videos:
+
 push_up_video/
 sit_up_video/
 squat_video/
+
 Image datasets for model development:
+
 train/
 valid/
 test/
-Annotation files stored in labels/
+
+Annotation files:
+
+Stored in the labels/ folders
 Annotation Format
 
 The dataset is organized in a YOLO-style directory structure, where:
@@ -52,11 +59,11 @@ The dataset is organized in a YOLO-style directory structure, where:
 images/ contains image files
 labels/ contains the corresponding annotation files
 
-If you use this dataset, please make sure your training pipeline matches the annotation format used in this repository.
+If you use this dataset, please make sure that your training pipeline matches the annotation format used in this repository.
 
 Data Source
 
-Part of this dataset was obtained from Roboflow, an open-access dataset platform, and further organized for research purposes in fitness action analysis.
+Part of this dataset was obtained from Roboflow, an open-access dataset platform, and was further organized for research purposes in fitness action analysis.
 
 Please respect the original license terms and conditions of the source data when using or redistributing this dataset.
 
@@ -73,7 +80,7 @@ Usage
 
 After downloading the dataset, unzip it and use the train, valid, and test folders in your machine learning pipeline.
 
-Example dataset configuration may follow this structure in YOLO-based projects:
+An example dataset configuration for YOLO-based projects is shown below:
 
 train: ./train/images
 val: ./valid/images
@@ -90,9 +97,21 @@ Notes
 The file labels.cache is a cache file generated during training and may not be necessary for redistribution.
 The video folders are provided as supplementary source material.
 The main dataset for training and evaluation is located in the train, valid, and test directories.
+Release
+
+The dataset is available in the GitHub Releases section of this repository.
+
+Release page: GitHub Releases
+
+You can download the dataset package from the release page.
+
 Data Availability
 
-The dataset is publicly available in this repository.
+The dataset used in this study is publicly available in this GitHub repository.
+
+For convenient download, the dataset package is provided in the Releases section of the repository:
+
+GitHub Releases
 
 License
 
