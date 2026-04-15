@@ -30,6 +30,7 @@ fitness/
 
 
 
+
 Dataset Content
 
 This dataset contains exercise-related image samples and corresponding annotation files for model training and evaluation.
