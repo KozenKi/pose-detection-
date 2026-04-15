@@ -1,6 +1,6 @@
 # Fitness Exercise Dataset
 
-A fitness exercise dataset for human action recognition and posture analysis in home fitness scenarios.
+A public dataset for fitness exercise recognition and pose-based analysis.
 
 ## Contents
 This dataset includes three exercise categories:
@@ -34,6 +34,8 @@ fitness/
     ├── images/
     └── labels/
 
+
+```markdown
 Format
 
 The dataset follows a YOLO-style structure:
