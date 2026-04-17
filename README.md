@@ -1,7 +1,4 @@
 # Fitness Exercise Dataset
-
-A public dataset for fitness exercise recognition and pose-based analysis.
-
 ## Contents
 This dataset includes three exercise categories:
 
